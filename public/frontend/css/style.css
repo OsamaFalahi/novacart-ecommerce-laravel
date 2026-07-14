@@ -3711,6 +3711,9 @@ Version:1.0
 .shop-services .single-service {
 	position: relative;
 	padding-left: 65px;
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
 }
 .shop-services .single-service i {
 	height: 50px;
@@ -3720,11 +3723,12 @@ Version:1.0
 	color: #333;
 	background: transparent;
 	border-radius: 100%;
-	display: block;
+	display: inline-block;
 	font-size: 32px;
-	position: absolute;
+	position: relative;
 	left: 0;
 	top: 0;
+	flex-shrink: 0;
 }
 .shop-services .single-service h4 {
 	font-size: 14px;
@@ -3732,11 +3736,13 @@ Version:1.0
 	text-transform: uppercase;
 	line-height: 22px;
 	color: #333;
+	margin: 0 0 5px 0;
 }
 .shop-services .single-service p {
 	color: #898989;
 	line-height: 28px;
 	font-size:14px;
+	margin: 0;
 }
 /*======================================
    End Shop Services CSS
@@ -5839,7 +5845,6 @@ Version:1.0
 
 .shop-services .single-service {
     position: relative;
-    padding-left: 70px;
     padding: 30px;
     border-radius: 16px;
     background: #ffffff;
@@ -5847,6 +5852,9 @@ Version:1.0
     transition: all 0.4s ease;
     border: 1px solid rgba(0,0,0,0.04);
     height: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .shop-services .single-service:hover {
@@ -5862,12 +5870,13 @@ Version:1.0
     color: #ffffff;
     background: linear-gradient(135deg, #6c5ce7, #a29bfe);
     border-radius: 16px;
-    display: block;
+    display: inline-block;
     font-size: 24px;
-    position: absolute;
-    left: 30px;
-    top: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
     box-shadow: 0 8px 25px rgba(108,92,231,0.3);
+    flex-shrink: 0;
 }
 
 .shop-services .single-service h4 {
