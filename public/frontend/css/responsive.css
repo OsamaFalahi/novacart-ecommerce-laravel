@@ -1454,7 +1454,7 @@ Version:1.0
 }
 .shop .nice-select {
 	width: 100%;
-	display: ;
+	display: block;
 	margin-top: 4px;
 }
 .shop .view-mode {
@@ -1468,12 +1468,11 @@ Version:1.0
 	margin-right: 5px;
 	display: inline-block;
 	margin: 0;
-	mar0-t: mar;
 	margin-top: 4px;
 	width: 100%;
 	display: block;
 	display: inline-block;
-	display: ;
+	display: block;
 }
 .shop .view-mode li a {
 	width: 80px;
@@ -1676,4 +1675,79 @@ Version:1.0
 	font-size: 15px;
 	margin: 10px 0 10px;
 }
+
+/* Modern Homepage Responsive */
+@media only screen and (max-width: 767px) {
+	#Gslider .carousel-inner {
+		height: 400px;
+	}
+
+	#Gslider .carousel-caption {
+		bottom: 20%;
+		left: 5%;
+		right: 5%;
+		text-align: center;
+	}
+
+	#Gslider .carousel-caption h1 {
+		font-size: 28px;
+		margin-bottom: 15px;
+	}
+
+	#Gslider .carousel-caption p {
+		font-size: 14px;
+		margin: 15px 0 20px 0;
+		display: none;
+	}
+
+	#Gslider .carousel-caption .btn {
+		padding: 12px 28px;
+		font-size: 13px;
+	}
+
+	#Gslider .carousel-control-prev,
+	#Gslider .carousel-control-next {
+		display: none;
+	}
+
+	.section-title h2 {
+		font-size: 24px;
+	}
+
+	.shop-services .single-service {
+		margin-bottom: 20px;
+	}
+
+	.shop-newsletter .newsletter-inner input {
+		width: 100%;
+		border-radius: 50px;
+		margin-bottom: 10px;
+	}
+
+	.shop-newsletter .newsletter-inner .btn {
+		width: 100%;
+		left: 0;
+		border-radius: 50px;
+	}
+
+	.midium-banner .single-banner img {
+		height: 200px;
+	}
+
+	.midium-banner .single-banner h3 {
+		font-size: 20px;
+	}
+
+	.shop-home-list .single-list .list-image img {
+		height: 180px;
+	}
+
+	.shop-blog .shop-single-blog img {
+		height: 180px;
+	}
+
+	.header.shop .search-bar {
+		width: 100%;
+		margin-top: 10px;
+	}
 }

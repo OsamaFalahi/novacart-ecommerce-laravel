@@ -28,6 +28,6 @@ class UsersTableSeeder extends Seeder
             ),
         );
 
-        laravel2::table('users')->insert($data);
+        DB::table('users')->insert($data);
     }
 }
